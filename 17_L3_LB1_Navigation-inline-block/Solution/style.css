@@ -1,0 +1,49 @@
+body {
+    padding: 5rem;
+    background: #EEE;
+}
+
+header a {
+    text-decoration: none;
+}
+.site {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.site > header:first-of-type {
+    border-bottom: 2px solid #000;
+}
+
+.site-title {
+    display: inline-block;
+    padding-right: 5vw;
+    font-weight: bold;
+}
+
+.site-title a {
+    font-size: 4rem;
+    color: #000;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 0 0.2rem;
+}
+
+header nav li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0.3rem;
+    color: #090;
+}
+
+header nav li a:hover {
+    background: #090;
+    color: #FFF;
+}

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather|Open+Sans+Condensed:300');
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+@import url('reset.css');
+@import url('typography.css');
+@import url('buttons.css');
+@import url('forms.css');
+@import url('navigation.css');
+@import url('elements.css');
+
+body {
+
+}
+
+.wrapper {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.site-header p,
+.site-footer p {
+    padding: 0;
+    margin: 0;
+}
+
+.site-header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.site-header .site-title a {
+    display: block;
+    text-decoration: none;
+    color: purple;
+    font-size: 2.5rem;
+}
+
+.site-header .site-description {
+    font-family: "Open Sans Condensed", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.055rem;
+}
+
+.site-footer .wrapper {
+    padding-bottom: 2rem;
+    }
+
+.site-footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-footer li {
+    list-style: none outside;
+    display: block;
+}
+
+@media screen and (min-width: 800px) {
+    
+    .site-footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    }
+}
+
+.site-footer .about {
+    flex: 0 0 30%;
+}
+
+.site-footer .sitemap {
+
+}
+
+.site-footer .contacts {
+
+}
+
+
+/*
+* Section Headers */
+.site > section header h2 {
+    margin-top: 0;
+}
+
+.site > section header {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.site > section header:after {
+    display: block;
+    margin: 0 auto 2rem auto;
+    width: 5rem;
+    height: 0.15rem;
+    content: '';
+    background: #333;
+}
+
+/*
+* Section - Call to action */
+
+section.call-to-action .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+section.call-to-action .copy {
+    flex: 1 0 100%;
+    text-align: center;
+}
+
+section.call-to-action i.fas {
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    
+    section.call-to-action .copy {
+        margin-right: 2rem;
+        text-align: left;
+        flex: 0 0 35rem;
+    }
+    
+    section.call-to-action i.fas {
+        display: block;
+        font-size: 9rem;
+    }
+}
+
+
+/*
+* Section - team */
+
+section.team {
+
+}
+
+/*
+* Section newsletter */
+
+section.newsletter {
+    background: #693C7D;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+section.newsletter .button {
+    background: #FFF;
+}
+
+section.testimonials {
+    box-shadow: 0 0 2rem 0.1rem rgba(0,0,0,0.3);
+}

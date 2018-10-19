@@ -1,0 +1,61 @@
+body {
+    padding: 2em;
+    background: rgb(238, 238, 238);
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.page {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0 0 1rem 1rem;
+}
+
+
+.page > header:first-of-type {
+    border-bottom: 2px solid #000;
+}
+
+header .site-title {
+    min-width: 20vw;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+img[class^="align-"] {
+    padding: 0.5rem;
+    border: 3px solid #222;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 5rem 0.1rem rgba(0, 0, 0, 0.25);
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+}
+
+.align-left {
+    float: left;
+    margin: 0 1.5rem 1rem 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+blockquote {
+    max-width: 40%;
+    min-width: 15rem;
+    float: right;
+    font-family: "Georgia", serif;
+	padding-top: 0;
+    color: #444;
+}

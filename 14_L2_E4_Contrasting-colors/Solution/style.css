@@ -1,0 +1,9 @@
+body {
+    padding: 5em;
+}
+
+article {
+    background: rgb(51, 102, 153);
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+}

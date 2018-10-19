@@ -1,0 +1,23 @@
+body {
+    background: rgb(238, 238, 238);
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+li {
+    background: white;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 7px;
+}
+
+.resize-img img {
+    width: 300px;
+}

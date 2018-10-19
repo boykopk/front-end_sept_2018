@@ -1,0 +1,55 @@
+body {
+    padding: 5rem;
+    background: rgb(238, 238, 238);
+}
+
+header a {
+    text-decoration: none;
+}
+
+.site {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.site > header:first-of-type {
+    border-bottom: 2px solid #000;
+}
+
+.site-title {
+    display: inline-block;
+    padding-right: 5vw;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.site-title a {
+    font-size: 4rem;
+    color: #000;
+}
+
+img[class^="align"] {
+    max-width: 100%;
+    height: auto;
+    border: 0.4rem black solid;
+    background: rgb(255, 255, 255);
+    padding: 0.9rem;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.25);
+}
+
+.align-right {
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+}
+
+.align-left {
+    float: left;
+    margin: 0 1.5rem 1rem 0;
+}
+
+blockquote {
+    max-width: 40%;
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+    color: #555;
+}

@@ -1,0 +1,32 @@
+body {
+    padding: 5rem;
+    background: rgb(238, 238, 238);
+}
+
+.card {
+    background:  rgb(255, 255, 255);
+    border-radius: 0.3rem;
+    overflow: hidden;
+    max-width: 26rem;
+}
+
+.card .content {
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.card .content h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 0 0.4rem 0;
+}
+
+.card .content a.button {
+    display: block;
+    background: rgb(0, 153, 0);
+    color: rgb(255, 255, 255);
+    border: 0.2rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    float: right;
+}

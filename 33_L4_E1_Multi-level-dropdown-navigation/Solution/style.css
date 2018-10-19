@@ -1,0 +1,67 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+
+}
+
+header > nav > ul {
+    background: white;
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+}
+
+header {
+    border-bottom: 2px solid black;
+    padding-bottom: 8px;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    background: rgb(51, 51, 50);
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+header > nav > ul > li:hover {
+    background: green;
+    cursor: pointer;
+}
+
+#product {
+    position: relative;
+    top: -18px;
+    left: 118px;
+}
+
+#product li {
+    display: block;
+    margin-bottom: 6px;
+    width: 100px;
+}
+
+.dropdown-men li {
+    position: relative;
+    margin-bottom: 6px;
+    width: 100px;
+    top: -153px;
+    left: 0px;
+}
+
+.dropdown-content,
+.dropdown-men {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#men-li:hover .dropdown-men li {
+    display: block;
+}
