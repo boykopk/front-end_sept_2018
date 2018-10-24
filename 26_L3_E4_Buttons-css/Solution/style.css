@@ -1,2 +1,10 @@
-@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+@import url('buttons.css');
+@import url('typography.css');
+
+
+body {
+	padding: 5rem;
+	background: #EEE;
+}
 
